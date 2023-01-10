@@ -1,0 +1,49 @@
+body
+{
+ background-image: url("bg4.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-attachment: fixed;   
+ opacity: 0.8;
+}
+div
+{
+    width: 700px;
+    margin-left: 400px;
+    margin-top: 80px;
+    color: white;
+}
+fieldset
+{
+    background-color: black;
+    border-radius: 20px;
+    box-shadow: 0 0 10px red;
+}
+legend
+{
+    background: radial-gradient(purple,green,yellow);
+    width: 100px;
+    border-radius: 50%;
+}
+input
+{
+    height: 30px;
+}
+h2
+{
+    text-align: center;
+}
+.final
+{
+    text-align: center;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+}
+.final:hover
+{
+    cursor: pointer;
+    box-shadow: 0 0 10px yellow;
+    font-size: large;
+    font-weight: 500;
+}

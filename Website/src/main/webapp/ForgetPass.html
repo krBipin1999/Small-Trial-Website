@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Forget Password</title>
+    <style>
+        body
+        {
+            background-image: url("bg4.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            opacity: 0.8;
+        }
+        fieldset
+        {
+            background: linear-gradient(45deg,yellow,deeppink);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            background-clip: border-box;
+            width: 400px;
+            margin-left: 500px;
+            margin-top: 300px;
+            border-radius: 20px;
+            box-shadow: 0 0 10px blue;
+        }
+        #final
+        {
+            height: 30px;
+            width: 80px;
+            background: linear-gradient(45deg,aqua,orange);
+            color: white;
+            font-size: large;
+            font-weight: bold;
+            border: none;
+            border-radius: 10px;
+        }
+        #final:hover
+        {
+            cursor: pointer;
+            box-shadow: 0 0 10px red;
+            background: linear-gradient(45deg,orange,aqua);
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <form action="forgPass" method="post">
+            <fieldset>
+                <table cellspacing="5px" cellpadding="7px">
+                    <tr>
+                        <td><Label>Enter UserName:</Label></td>
+                        <td><input type="email" name="Email"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td colspan="2"><input type="submit" value="Submit" id="final"></td>
+                    </tr>
+                </table>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>

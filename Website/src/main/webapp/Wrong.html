@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        body
+        {
+            background-image: url("danger2.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            opacity: 0.9;
+        }
+        #fp
+        {
+            text-align: center;
+            margin-left: -85px;
+        }
+        h1
+        {
+            color: red;
+            text-align: center;
+        }
+        div
+        {
+            height: 300px;
+            width: 390px;
+            margin-left: 568px;
+            margin-top: 235px;
+        }
+        button
+        {
+            height: 50px;
+            width: 150px;
+            border-radius: 10px;
+            font-size: large;
+            font-weight: bold;
+        }
+        fieldset
+        {
+            background-color: black;
+            border-radius: 15px;
+        }
+        a
+        {
+            text-decoration: none;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Wrong Username or Password...</h1>
+        <form action="error" method="post">
+            <fieldset>
+                <table celspacing="10px" cellpadding="10px">
+                    <tr>
+                        <td><button><a href="LoginPage.html">Login Again</a></button></td>
+                        <td><button><a href="SignUp.html">SignUp</a></button></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td colspan="2" ><button id="fp"><a href="ForgetPass.html">Forget Password</a></button></td>
+                    </tr>
+                </table>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>

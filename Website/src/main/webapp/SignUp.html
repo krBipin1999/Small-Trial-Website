@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>SignIn</title>
+    <link rel="stylesheet" href="SignUp.css">
+</head>
+<body>
+    <header>
+        <marquee behavior="alternate" scrollamount="10"><h1>---Welcome to Home Page---</h1></marquee>
+    </header>
+    <div>
+        <form action="signin" method="post">
+            <fieldset>
+                <legend><h2>SignUp</h2></legend>
+                <table cellspacing="8px" cellpadding="7px">
+                
+                	<tr>
+                        <td> <label for="">Id:</label></td>
+                        <td><input type="text" name="id"></td>
+                    </tr>
+                    <tr>
+                        <td> <label for="">First Name:</label></td>
+                        <td><input type="text" name="fname"></td>
+                        <td> <label for="">Last Name:</label></td>
+                        <td><input type="text" name="lname"></td>
+                       
+                    </tr>
+                    <tr>
+                        <td> <label for="">Email Id:</label></td>
+                        <td><input type="email" name="email"></td>
+                        <td> <label for="">Mobile Number:</label></td>
+                        <td><input type="number" name="number"></td>
+                    </tr>
+                    <tr>
+                        <td> <label for="">DOB:</label></td>
+                        <td><input type="date" name="dob"></td>
+                        <td> <label for="" >Gender:</label></td> 
+                       <td>
+                            <input type="radio" name="gender" value="Male">Male
+                            <input type="radio" name="gender" value="Female">Female
+                            <input type="radio" name="gender" value="Other">Other
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> <label for="">Address:</label></td>
+                        <td><input type="text" name="address"></td>
+                        <td> <label for="">State:</label></td>
+                        <td><input type="text" name="state"></td>
+                    </tr>
+                    <tr><td><label for="">Password:</label></td>
+                        <td><input type="password" name="password"></td>
+                    </tr>
+                    <tr><td></td>
+                        <td colspan="2"><input type="submit" class="final"></td>
+                        
+                        <td ><input type="reset" class="final"></td>
+                    </tr>
+                </table>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,57 @@
+body
+{
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    backface-visibility: visible;
+    background-attachment: fixed;
+    opacity: 0.9;
+}
+div
+{
+    width: 300px;
+    margin-left: 550px;
+    margin-top: 175px;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+
+fieldset
+{
+    background-color: black;
+    border-radius: 10px;
+}
+legend
+{
+    background:radial-gradient(brown,lime);
+    width: 80px;
+    text-align: center;
+    border-radius: 50%;
+}
+input
+{
+    height: 30px;
+}
+#final
+{
+    width: 80px;
+    font-size: large;
+    font-weight: bold;
+}
+#final:hover
+{
+    box-shadow: 0 0 10px red;
+    text-shadow: 0 0 10px green;
+}
+button
+{
+    width: 80px;
+    font-size: large;
+    font-weight: bold;
+}
+button>a
+{
+    text-decoration: none;
+    text-align: center;
+}
